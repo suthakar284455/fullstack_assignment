@@ -1,0 +1,122 @@
+.patient-payment-details{
+    width:350px;
+}
+
+.patient-payment-details td{
+    height:20px;
+    text-align: left;
+    padding-left:9px;
+}
+
+.card-details{
+    margin-top:20px;
+}
+
+.card-details span{
+    /* padding-right: 90px; */
+    position: absolute;
+    width: 126px;
+}
+.card-details input{
+    margin-left: 127px;
+    width:88px;
+}
+
+.card-details select{
+    margin-left: 127px;
+    width:110px;
+}
+
+.payment-details{
+    margin-top:20px;
+}
+
+.payment-details input{
+    margin-bottom:10px;
+    width:300px;
+}
+
+.payment-details .expiry{
+    width: 131px;
+}
+
+.payment-details .cvv{
+    width: 97px;
+    margin-left: 20px;
+}
+
+.payment-error{
+    position: absolute;
+    margin-left: 126px;
+    width: 228px;
+    margin-top: 2px
+}
+
+.card-holder-name{
+    position: absolute;
+}
+
+.payment-mode{
+    margin-top:12px;
+}
+.card-name{
+    width: 300px;
+    height: 32px;
+    margin-top:25px
+}
+
+.card-name input{
+    width:300px;
+}
+
+.card-name .input-feedback{
+    position: absolute;
+    margin-top:20px;
+}
+
+.card-number{
+    width: 300px;
+    height: 32px;
+    margin-top:8px
+}
+
+.card-number input{
+    width:300px;
+}
+
+.card-number .input-feedback{
+    position: absolute;
+    margin-top:20px;
+}
+.expiry-cvv{
+    margin-top:10px;
+}
+.cvv{
+    margin-left:15px;
+}
+
+.expiry-cvv .cvv-error{
+    margin-left:140px;
+}
+
+.expiry-cvv .expiry-error{
+   position:absolute;
+}
+
+.previous-transaction{
+    width: 400px;
+    height: 40px;
+
+    margin-left: 391px
+}
+
+.previous-transaction table{
+    width:100%;
+}
+
+.payment-part{
+    width: 382px;
+    position: relative;
+    float: left;
+
+}

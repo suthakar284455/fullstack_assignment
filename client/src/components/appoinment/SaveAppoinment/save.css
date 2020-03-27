@@ -1,0 +1,302 @@
+[type="date"] {
+  background: #fff
+    url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)
+    97% 50% no-repeat;
+}
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+/* .container {
+  width: 650px;
+} */
+.content {
+  width: 143px;
+}
+
+h3 {
+  color: rgb(0, 140, 255);
+}
+
+hr {
+  border-top: 1px solid #008cff;
+}
+
+.patient-details {
+  margin-top: 27px;
+}
+.salution {
+  height: 21px;
+}
+
+.patient-name {
+  display: inline-flex;
+}
+
+.name-patient{
+  height: 30px;
+  width: 185x;
+}
+.date-of-birth {
+  display: inline-flex;
+  margin-top: 10px;
+}
+
+.name {
+  margin-left: 8px;
+}
+.gender {
+  margin-left: 15px;
+  display: inherit;
+}
+
+.gender .check-box {
+  margin-left: 42px;
+}
+.age {
+  margin-left: 116px;
+  display: inline-flex;
+}
+
+.age input {
+  width: 50px;
+  margin-left: 73px;
+}
+
+.appoinment-date {
+  display: inline-flex;
+  margin-top: 10px;
+}
+.appoinment-date .app-date {
+  display: inherit;
+}
+
+.phone-number {
+  margin-left: 116px;
+}
+
+.phone-number input {
+  width: 120px;
+  margin-left: 10px;
+}
+.date-of-birth .dob {
+  display: inherit;
+  height: 34px;
+  width: 129px;
+}
+
+.appoinment-date .app-date{
+  display: inherit;
+  height: 34px;
+  width: 129px;
+}
+
+.appoinment-date .app-date input{
+  height:20px;
+}
+
+.date-of-birth .dob input{
+  height:20px;
+}
+
+.address {
+  display: inline-flex;
+  margin-top: 10px;
+}
+
+.address .patient-address {
+  width: 461px;
+}
+
+
+
+.input-feedback {
+  color: rgb(235, 54, 54);
+  font-size: 11px;
+}
+
+.address .address-part-1 input {
+  margin-top: 10px;
+  width: 100%;
+}
+
+
+
+.address .address-part-1 input:nth-child(2) {
+  margin-top: 20px;
+}
+.address .address-part-1{
+
+  height:88px;
+
+}
+
+
+.address .address-part-2 .postal-country-container{
+  margin-top:-4px;
+  height:44px;
+}
+
+.address .address-part-2 .city-state-container{
+  margin-top:-4px;
+  height:44px;
+}
+
+
+.address .address-part-2 .input-feedback{
+  position: absolute;
+}
+.city-state{
+  outline:2px solid green
+}
+.address .address-part-2 input {
+  margin-top: 10px;
+  width: 47%;
+}
+
+.city {
+  margin-right: 19px;
+}
+.postal-code {
+  margin-right: 19px;
+}
+
+.scan-details {
+  display: inline-flex;
+  margin-top: 30px;
+}
+
+.scan-list {
+  display: inherit;
+}
+
+.scan-details input {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.scan-details ul {
+  margin-left: 10px;
+}
+::placeholder {
+  color: lightgray;
+}
+
+.patient-age {
+  outline: 1px solid;
+}
+
+.amount {
+  margin-left: 13px;
+  margin-right: 20px;
+  color: red;
+  font-weight: bold;
+}
+.scan-amount {
+  margin-top: 2px;
+  display: inline-flex;
+}
+
+.discount-amount {
+  margin-top: 2px;
+  display: inline-flex;
+}
+
+.discount-amount input {
+  width: 50px;
+}
+
+.scan-amount input {
+  width: 39px;
+}
+
+.patient-age {
+  width: 50px;
+  height:20px;
+  outline: 1px solid gray;
+  margin-left: 73px;
+  text-align: center;
+  font-family: inherit;
+}
+
+.address-part-2 select {
+  width: 47%;
+}
+
+.add-button {
+  width: 20px;
+  height: 20px;
+  background-color: lightblue;
+}
+
+.Warning-message {
+  color: red;
+  margin-left: 21px;
+  margin-top: 3px;
+  font-size: 12px;
+  position: relative;
+}
+
+.scan-report {
+  width: 500px;
+  height: auto;
+}
+
+table {
+  width: 600px;
+  border-collapse: collapse;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  font-size: 12px;
+}
+
+table th {
+  height: 40px;
+  width: 40px;
+  background: rgb(0, 140, 255);
+  color: white;
+}
+
+table td {
+  height: 40px;
+  width: 40px;
+}
+
+.save-button {
+  margin-left: 250px;
+}
+input.error {
+  border: 1px solid red;
+}
+
+select.error {
+  border: 1px solid red;
+}
+
+
+.patientname-error {
+  margin-left: 7px;
+}
+
+.phone-error {
+  margin-left: 94px;
+}
+
+.state {
+  margin-left: 239px;
+}
+.country-error {
+  margin-left: 238px;
+}
+
+.dob-error {
+  margin-top: 21px;
+  position: absolute;
+}
+.appointmentdate-error {
+  margin-left: 142px;
+  margin-top: 21px;
+  position: absolute;
+}
