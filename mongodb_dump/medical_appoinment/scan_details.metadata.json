@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"medical_appoinment.scan_details"}],"uuid":"70390c13f3b245b2b6777de277f803d5"}
