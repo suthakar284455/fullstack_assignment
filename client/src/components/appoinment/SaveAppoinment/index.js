@@ -29,6 +29,7 @@ const Application = (props, dispatch) => {
         }}
         onSubmit={(values, { setSubmitting }) => {
           setSubmitting(false);
+
           if (values.action === "save") {
             window.scrollTo(0, 0);
             props.updateAppoinment(true);
@@ -100,7 +101,8 @@ const Application = (props, dispatch) => {
             handleSubmit,
             setFieldValue,
             handleReset,
-            dirty
+            dirty,
+            isValid
           } = props;
 
           const buttonStyle = {
@@ -123,12 +125,11 @@ const Application = (props, dispatch) => {
                 onClick={() => {
                   setFieldValue("action", "save");
                   setTimeout(() => {
-                    if (dirty) {
-                      handleReset();
-                      window.props.updateStatus(false);
-                      window.props.updateScanDetails(null);
-                      window.props.updateAppoinment(false);
-                      window.props.updateScanDetails(null);
+                    if (isValid) {
+                        handleReset();
+                        window.props.updateStatus(false);
+                        window.props.updateScanDetails(null);
+                        window.props.updateAppoinment(false);
                     }
                   }, 1500);
                 }}

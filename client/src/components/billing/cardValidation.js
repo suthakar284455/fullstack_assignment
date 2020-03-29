@@ -86,7 +86,8 @@ class CardValidation extends Component {
             const {
               handleSubmit,
               handleReset,
-              dirty
+              dirty,
+              isValid
             } = props;
 
             const buttonStyle = {
@@ -250,7 +251,7 @@ class CardValidation extends Component {
                   style={buttonStyle}
                   onClick = {() => {
                     setTimeout(() => {
-                      if (dirty) {
+                      if (isValid) {
                        handleReset();
                       }
                      }, 100);

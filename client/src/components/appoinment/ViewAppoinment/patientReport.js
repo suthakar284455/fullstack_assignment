@@ -29,8 +29,8 @@ import { connect } from "react-redux";
                 <td>{item.patientname}</td>
                 <td>{item.age} - {item.gender}</td>
                 <td>{item.appoimentdate}</td>
-                { item.scan[0] && <td>{item.total_amount}</td>}
-                <td><a href="#" onClick={this.clickPayHandler.bind(this, item._id)}>Click to Pay</a></td>
+                { item.scan[0] ? <td>{item.total_amount}</td> : <td>{0}</td>}
+                <td><a href="#" onClick={this.clickPayHandler.bind(this, item._id)}>{item.scan[0] && "Click to Pay"}</a></td>
               </tr>
             );
           })}
