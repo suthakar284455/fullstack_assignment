@@ -39,7 +39,7 @@ class CardValidation extends Component {
                   };
                   const url = endPoints.BASE_URL + endPoints.UPDATE_PATIENT;
                   values.id=this.props._id;
-                  if(this.props.transaction_count==2){
+                  if(this.props.transaction_count===2){
                     if(user_amount !== payment){
                       alert("Please settle the whole amount as you have already done 2 transations ");
                     }else{
@@ -84,9 +84,7 @@ class CardValidation extends Component {
         >
           {props => {
             const {
-              isSubmitting,
               handleSubmit,
-              setFieldValue,
               handleReset,
               dirty
             } = props;

@@ -66,7 +66,7 @@ export default class ViewAppoinment extends Component {
       Service.getInstance()
       .fetchPatientDetails(url, param)
       .then(patientdata   => {
-          if(patientdata.data.length==0){
+          if(patientdata.data.length===0){
               this.setState({
                 error:true
               })

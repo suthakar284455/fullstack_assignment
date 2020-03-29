@@ -10,9 +10,11 @@
   opacity: 0;
 }
 
-/* .container {
-  width: 650px;
-} */
+.container {
+  width: 1000px;
+} 
+
+
 .content {
   width: 143px;
 }
@@ -38,7 +40,7 @@ hr {
 
 .name-patient{
   height: 30px;
-  width: 185x;
+  width: 185px;
 }
 .date-of-birth {
   display: inline-flex;
@@ -136,13 +138,14 @@ hr {
 
 
 .address .address-part-2 .postal-country-container{
-  margin-top:-4px;
+  margin-top:15px;
   height:44px;
 }
 
 .address .address-part-2 .city-state-container{
   margin-top:-4px;
   height:44px;
+  width:520px;
 }
 
 
@@ -154,7 +157,7 @@ hr {
 }
 .address .address-part-2 input {
   margin-top: 10px;
-  width: 47%;
+  width: 42%;
 }
 
 .city {
@@ -162,6 +165,7 @@ hr {
 }
 .postal-code {
   margin-right: 19px;
+  width: 47% !important;
 }
 
 .scan-details {

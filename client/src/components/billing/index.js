@@ -109,10 +109,6 @@ import CardValidation from './cardValidation'
 
 
     render() {
-    const buttonStyle = {
-        backgroundColor: "#008CFF",
-        top: 5
-    };
     return (
         <div className="billing-container">
             <h3>Billing</h3>
@@ -160,7 +156,7 @@ import CardValidation from './cardValidation'
                         </tbody>
                     </table>
                 </div>
-                <CardValidation _id={this.state.patient._id} balance_amount={ this.state.balance_amount}  callback = {this.setBalanceAmount.bind(this)}/>
+                <CardValidation _id={this.state.patient._id} balance_amount={ this.state.balance_amount}  callback={this.setBalanceAmount.bind(this)}/>
             </div>
 
             {

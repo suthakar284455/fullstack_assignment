@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { connect } from "react-redux";
+
 
 class ScanReport extends Component {
   render() {
@@ -38,19 +38,5 @@ class ScanReport extends Component {
 
 export default ScanReport;
 
-// const mapDispatchToProps = dispatch => {
-//   return {
-//     updateScanDetails: data =>
-//       dispatch({ type: "UDATE_SCAN_REPORT", payload: data }),
-
-//   };
-// };
-// const mapStateToProps = state => {
-//   return {
-//     scan_record: state.scan_record,
-//   };
-// };
-
-// export default connect(mapStateToProps,mapDispatchToProps)(ScanReport);
 
 
