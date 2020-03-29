@@ -197,9 +197,10 @@ class SaveAppoinment extends Component {
                   this.props.formikProps.isValid && this.addPatientDetails();
                 }
 
-                this.props.formikProps.isValid
-                  ? this.props.updateStatus(true)
-                  : "";
+                if(this.props.formikProps.isValid){
+                  this.props.updateStatus(true)
+                }
+               
               }, 100);
             }}
           >
